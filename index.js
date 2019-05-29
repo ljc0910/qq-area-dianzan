@@ -18,7 +18,7 @@ function dianzan(driver){
     driver.findElements(By.className("fui-icon icon-op-praise")).then((arr)=>{
         for(let i=0;i<arr.length;i++){
              arr[i].getCssValue('background-position').then(v=>{
-                 if(v=='-458px -286px'){
+                 if(v=='-52px -921px'){
                      console.log(i,'已赞')
                  }else{
                      console.log(i,'点赞')
